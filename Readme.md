@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Дарья Альпидовская](https://up.htmlacademy.ru/htmlcss/21/user/673493).
-* Наставник: [Виктория Коваленко] (https://htmlacademy.ru/profile/id42638).
+* Наставник: [Виктория Коваленко](https://htmlacademy.ru/profile/id42638).
 
 ---
 

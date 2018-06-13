@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
@@ -68,30 +71,30 @@
             <legend>Стоимость в сутки (P):</legend>
               <label for="price">от 0 до 3000</label>
               <input class="visually-hidden input-range" type="range" min="0" max="3000" step="1" id="price">
-              <button  class="btn"  type="submit">Показать</button>
+              <button  class="button button-4"  type="submit">Показать</button>
             </fieldset>
         </form>
         <section class="sorting">
         <h2>Найдено: 3</h2>
         <p>Сортировка:</p>
         <ul>
-          <li>По цене</li>
-          <li>По типу</li>
-          <li>По рейтингу</li>
+          <li><button class="button button-3 active" type="button">По цене</button></li>
+          <li><button class="button button-3" type="button">По типу</button></li>
+          <li><button class="button button-3" type="button">По рейтингу</button></li>
         </ul>
         <button class="visually-hidden up-arrow" type="button" value="Стрелка вверх"></button>
         <button class="visually-hidden down=arrow" type="button" value="Стрелка вниз"></button>
       </section>
       <section class="catalog">
         <div class="catalog-item">
-          <div class="catalog-image">
+          <div class="image catalog-image">
             <img src="img/amara.jpg" width="135" height="90" alt="Amara resort&spa">
           </div>
           <div class="catalog-information">
-            <h2>Amara resort&spa</h2>
+            <h2><a href="#">Amara resort&spa</a></h2>
             <p>Гостиница от 4000 Р.</p>
-            <a class="button" href="#">Показать</a>
-            <a class="button" href="#">Забронировать</a>
+            <a class="button button-2" href="#">Показать</a>
+            <a class="button button-1" href="#">Забронировать</a>
           </div>
           <div class="catalog-rating">
             <span class="stars"></span>
@@ -99,14 +102,14 @@
           </div>
         </div>
         <div class="catalog-item">
-          <div class="catalog-image">
+          <div class="image catalog-image">
             <img src="img/desert.jpg" width="135" height="90" alt="Desert quail inn">
           </div>
           <div class="catalog-information">
-            <h2>Desert quail inn</h2>
+            <h2><a href="#">Desert quail inn</a></h2>
             <p>Мотель от 3000 Р.</p>
-            <a class="button" href="#">Показать</a>
-            <a class="button" href="#">Забронировать</a>
+            <a class="button button-2" href="#">Показать</a>
+            <a class="button button-1" href="#">Забронировать</a>
           </div>
           <div class="catalog-rating">
             <span class="stars"></span>
@@ -114,14 +117,14 @@
           </div>
         </div>
         <div class="catalog-item">
-          <div class="catalog-image">
+          <div class="image catalog-image">
             <img src="img/poco.jpg" width="135" height="90" alt="Villas at poko diablo">
           </div>
           <div class="catalog-information">
-            <h2>Villas at poko diablo</h2>
+            <h2><a href="#">Villas at poko diablo</a></h2>
             <p>Апартаменты от 2000 Р.</p>
-            <a class="button" href="#">Показать</a>
-            <a class="button" href="#">Забронировать</a>
+            <a class="button button-2" href="#">Показать</a>
+            <a class="button button-1" href="#">Забронировать</a>
           </div>
           <div class="catalog-rating">
             <span class="stars"></span>
@@ -138,7 +141,7 @@
         <a href="#" class="social-yt"><span></span></a>
       </div>
       <div class="developer">
-        <b>Website by</b>
+        <span>Website by</span>
           <a href="https://htmlacademy.ru">HTML Academy</a>
       </div>
     </footer>

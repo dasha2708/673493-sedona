@@ -10,10 +10,10 @@
   <body>
     <header class="main-header">
       <nav class="main-navigation">
+        <a class="main-header-logo"><img src="img/logo.png" alt="Логотип" width="140" height="70"></a>
         <ul class="site-navigation">
           <li><a href=#>Информация</a></li>
           <li><a href=#>Фото и видео</a></li>
-          <li><a class="main-header-logo"><img src="img/logo.png" alt="Логотип" width="140" height="70"></a></li>
           <li><a href=#>Карта штата</a></li>
           <li><a href="inner.html">Гостиницы</a></li>
         </ul>
@@ -31,12 +31,10 @@
       </section>
       <section class="reason first-reason">
         <div class="reason-text">
-          <div class="text">
-              <h2>Настоящий городок</h2>
-              <span>-№1-</span>
-              <p>Седона - не аттаркцион для туристов, там течет жизнь</p>
-            </div>
-          </div>
+          <h2>Настоящий городок</h2>
+          <span>-№1-</span>
+          <p>Седона - не аттаркцион для туристов, там течет жизнь</p>
+        </div>
         <div class="image sedona-image">
           <img  src="img/sedona.jpg"  width="800" height="260" alt="Вид">
         </div>
@@ -60,43 +58,34 @@
           <img  src="img/bridge.jpg"  width="800" height="260" alt="Мост дьявола">
         </div>
         <div class="reason-text">
-          <div class="text">
-            <h2>Там есть мост дьявола</h2>
-            <span>-№2-</span>
-            <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
-          </div>
+          <h2>Там есть мост дьявола</h2>
+          <span>-№2-</span>
+          <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
         </div>
       </section>
       <section class="reason other-reasons">
         <div class="other-reasons-item">
-          <div class="text">
             <h2>Небольшая площадь</h2>
             <span>-№3-</span>
             <p>Все достопримечательности находятся очень близко</p>
-          </div>
         </div>
         <div class="other-reasons-item">
-          <div class="text">
             <h2>Красивая дорога</h2>
             <span>-№4-</span>
             <p>Ехать в Седону из Лас-Вегаса совсем не скучно</p>
-          </div>
         </div>
         <div class="other-reasons-item">
-          <div class="text">
             <h2>Мало туристов</h2>
             <span>-№5-</span>
             <p>Большинство едет в Гранд Каньон и толпится там</p>
-          </div>
-        </div>
+      </div>
       </section>
       <section class="feedback">
         <h3>Заинтересовались?</h3>
         <p>Укажите предполагаемые даты поездки<br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
       </section>
-      <div class="form">
-        <a class="button button-1 search-hotel" href="#">Поиск гостиницы в седоне</a>
       <form  class="search-form" action="https://echo.htmlacademy.ru" method="post">
+        <a class="button button-brown search-hotel" href="#">Поиск гостиницы в седоне</a>
         <label>Дата заезда:
           <input class="arrival-date" type="text" placeholder="24 Апреля 2017" id="arrival-date" name="arrival-date">
         </label>
@@ -109,10 +98,9 @@
         <label>Дети:
           <input class="number-of-children" type="number" min="1" max="10" step="1" id="number-of-children" name="number-of-children">
         </label>
-        <button class="button button-2" type="submit">Найти</button>
+        <button class="button button-blue" type="submit">Найти</button>
       </form>
-    </div>
-      <div class="map">
+    <div class="map">
         <img src="img/map.jpg" width="1200" height="500" alt="Map">
       </div>
     </main>

@@ -10,8 +10,16 @@ body {
   text-transform: uppercase;
 }
 
-/* ----- Базовая стилизация ----- */
+.main-wrapper {
+  width: 1280px;
+  background-color: #eaeaea;
+}
 
+.main-container {
+  background-color: #ffffff;
+  width: 1200px;
+  margin: auto;
+}
 .welcome-block {
   background-color: #a3a7ac;
   background-image: url("../img/bg.jpg");
@@ -238,12 +246,6 @@ a {
   padding: 45px 60px 50px;
 }
 
-
-
-
-/* ----- Сеточные стили ----- */
-
-
 .main-navigation {
   min-height: 56px;
   margin: 0;
@@ -255,7 +257,7 @@ a {
   width: 240px;
   position: absolute;
   top: 0px;
-  left: 530px;
+  left: 565px;
 }
 
 .site-navigation {

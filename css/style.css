@@ -110,6 +110,9 @@ a {
 }
 
 .button {
+  display: inline-block;
+  padding: 5px 15px;
+  margin-right: 10px;
   font: inherit;
   text-align: center;
   color: #ffffff;
@@ -259,6 +262,8 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  flex-wrap: wrap;
 }
 
 .site-navigation li {
@@ -313,11 +318,46 @@ a {
 .advantages-item {
   width: 400px;
   min-height: 35px;
-  padding: 210px 55px 85px;
-
-
+  padding: 150px 55px 85px;
+  position: relative;
 }
 
+.housing::before {
+  content: "";
+  position: absolute;
+  top: 60px;
+  left: 165px;
+  width: 70px;
+  height: 70px;
+  background-image: url("../img/icon-1.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.food::before {
+  content: "";
+  position: absolute;
+  top: 60px;
+  left: 165px;
+  width: 70px;
+  height: 70px;
+  background-image: url("../img/icon-2.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+
+.souvenirs::before {
+  content: "";
+  position: absolute;
+  top: 55px;
+  left: 165px;
+  width: 70px;
+  height: 70px;
+  background-image: url("../img/icon-3.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
 
 .other-reasons-item {
   background-color: #eeeeee;
@@ -327,9 +367,8 @@ a {
 }
 
 .feedback {
-  display: flex;
-  flex-direction: column;
-  min-height: 100px;
+  position: relative;
+  text-align: center;
 }
 
 .feedback h3 {
@@ -337,72 +376,130 @@ a {
   margin: 55px auto;
 }
 
+iframe {
+  width: 1200px;
+  height: 470px;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: auto;
+}
 .search-form {
   background-color: #ffffff;
-  width: 570px;
-  height: 600px;
+  height: 400px;
   display: flex;
   flex-direction: column;
-  position: absolute;
-  top: 2000;
-  left: 315px;
   flex-wrap: wrap;
   justify-content: center;
+  width: 500px;
+  position: absolute;
+  top: 250px;
+  left: 50%;
+  transform: translatex(-50%);
 
+}
+
+.feedback .button-blue {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-bottom: 55px;
+  width: 430px;
+  height: 50px;
 }
 
 .search-hotel {
-  height: 90px;
   font-weight: bold;
   text-align: center;
   font-size: 21px;
-  padding-top: 30px;
-  margin: auto;
-}
-
-.arrival-date {
-  width: 350px;
-  height: 40px;
+  width: 460px;
+  padding: 20px;
   margin-top: 55px;
-  margin-left: 10px;
-
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.disposal-date {
-  width: 350px;
-  height: 40px;
-  margin-top: 30px;
-  margin-left: 10px;
-}
-
-.number-of-adults {
-  width: 120px;
-  height: 35px;
-  margin-top: 30px;
-  margin-left: 30px;
-  margin-right: 40px;
-}
-
-
-.number-of-children {
-  width: 120px;
-  height: 35px;
-  margin-top: 30px;
-  margin-left: 30px;
-}
 
 .search-form .button {
-  width: 460px;
+  width: 400px;
   height: 60px;
-  margin-top: 30px;
+  margin: 55px auto;
   font-size: 21px;
   line-height: 26px;
 }
 
-.map {
-  margin-top: 135px;
+.form-group {
+  display: flex;
+  flex-direction: column;
+  }
+
+.input-group{
+  width: 350px;
+  height: 40px;
+  margin-left: 10px;
 }
 
+.group-of-people {
+  display: flex;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.hotel-grown {
+  width: 130px;
+  background-color: #f2f2f2;
+  position: relative;
+  margin-left: 35px;
+  margin-right: 35px;
+  position: relative;
+}
+
+.hotel-grown input {
+  width: 60px;
+  height: 40px;
+}
+
+.hotel-grown button:first-child {
+  top: 10px;
+  left:10px;
+}
+
+.hotel-grown button:last-child{
+  top: 10px;
+  left: 100px;
+}
+
+.hotel-children {
+  width: 130px;
+  background-color: #f2f2f2;
+  margin-left: 20px;
+  position: relative;
+}
+
+.hotel-children input {
+  width: 60px;
+  height: 40px;
+}
+
+.booking-form-search1,
+.booking-form-search2 {
+  align-self: center;
+}
+.hotel-children button,
+.hotel-grown button {
+  position: absolute;
+}
+
+.hotel-children button:first-child {
+  top: 10px;
+  left:10px;
+}
+
+.hotel-children button:last-child{
+  top: 10px;
+  left: 100px;
+}
 
 .page-footer {
   display: flex;
@@ -418,6 +515,7 @@ a {
   width: 155px;
   margin-left: 255px;
   justify-content: space-between;
+  position: relative;
 }
 
 .developer {
@@ -497,7 +595,8 @@ fieldset:nth-child(3) label {
 
 .sorting ul {
   display: flex;
-  width: 240px;
+  flex-direction: row;
+  width: 300px;
   min-height: 14px;
   justify-content: space-between;
   margin-left: 40px;
@@ -518,7 +617,7 @@ fieldset:nth-child(3) label {
 .catalog-item {
   display: flex;
   justify-content: center;
-  min-height: 150px;
+  min-height: 100px;
   border-bottom: 1px solid #e5e5e5;
   padding: 30px 75px;
 }
@@ -539,14 +638,46 @@ fieldset:nth-child(3) label {
   min-height: 90px;
   margin-top: -20px;
   line-height: 15px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.catalog-information p {
+  margin-top: -40px;
+  font-size: 12px;
+  line-height:  18px;
 }
 
+.catalog-information span {
+  margin-top: -40px;
+  font-size: 12px;
+  line-height:  18px;
+}
+.catalog-information .amara-indent {
+  margin-left: 45px;
+}
+
+.catalog-information .desert-indent {
+  margin-left: 110px;
+}
+
+.catalog-information .villas-indent {
+  margin-left: 30px;
+}
+
+
+
 .catalog-item .catalog-rating {
-  height: 90px;
+  min-height: 90px;
   display: flex;
   align-items: flex-end;
   flex-direction: column;
   margin-left: 520px;
+  position: relative;
+
+
 }
 
 .catalog-rating p {
@@ -554,14 +685,56 @@ fieldset:nth-child(3) label {
   height: 30px;
   background-color: #f2f2f2;
   color: #797979;
+  margin-top: 60px;
+
 }
 
+.amara .star1::before,
+.amara .star1::after,
+.amara .star2::before,
+.amara .star2::after,
+.desert .star1::before,
+.desert .star1::after,
+.desert .star2::before,
+.villas .star1::before,
+.villas .star1::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/star.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.star1::before {
+  top: 0px;
+  left: 90px;
+}
+
+.star1::after {
+  top: 0px;
+  left: 70px;
+}
+
+.star2::before {
+  top: 0px;
+  left: 50px;
+}
+
+.star2::after {
+  top: 0px;
+  left: 30px;
+}
+
+
 .catalog-information .button-blue {
-  width: 115px;
-  height: 30px;
+  position: absolute;
+  top: 80px;
 }
 
 .catalog-information .button-brown {
-  width: 140px;
-  height: 30px;
+  position: absolute;
+  top: 80px;
+  left: 110px;
 }

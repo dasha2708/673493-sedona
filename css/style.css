@@ -1,5 +1,4 @@
 body {
-  width: 1200px;
   margin: 0;
   padding: 0;
   font-family: "PT Sans", Arial, sans-serif;
@@ -8,17 +7,13 @@ body {
   font-weight: normal;
   color: #000000;
   text-transform: uppercase;
-}
-
-.main-wrapper {
-  width: 1280px;
   background-color: #eaeaea;
 }
 
 .main-container {
   background-color: #ffffff;
   width: 1200px;
-  margin: auto;
+  margin: 0 auto;
 }
 .welcome-block {
   background-color: #a3a7ac;
@@ -250,6 +245,7 @@ a {
   min-height: 56px;
   margin: 0;
   display: flex;
+  position: relative;
 }
 
 .main-header-logo {
@@ -257,14 +253,13 @@ a {
   width: 240px;
   position: absolute;
   top: 0px;
-  left: 565px;
+  left: 530px;
 }
 
 .site-navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
   flex-wrap: wrap;
 }
 

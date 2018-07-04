@@ -92,8 +92,8 @@
       <form action="https://echo.htmlacademy.ru" method="post" class="search-form">
         <div class="form-group group-inter">
           <p class="date">
-            <label>дата заезда:</label>
-            <input type="text" name="datefrom" value="" class="input-group" placeholder="24 апреля 2017">
+            <label for="date-inter">дата заезда:</label>
+            <input type="text" name="datefrom" value="" class="input-group" placeholder="24 апреля 2017" id="date-inter">
             <button class="input-icon-calendar" type="button">
               <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                  width="21px" height="22px" viewBox="0 0 21 22" enable-background="new 0 0 21 22" xml:space="preserve" style="fill: #cacaca">
@@ -121,8 +121,8 @@
         </div>
         <div class="form-group group-exit">
           <p class="date">
-            <label>дата выезда:</label>
-            <input type="text" name="dateexit" value="" class="input-group" placeholder="4 июля 2017">
+            <label for="date-exit">дата выезда:</label>
+            <input type="text" name="dateexit" value="" class="input-group" placeholder="4 июля 2017" id="date-exit">
             <button class="input-icon-calendar" type="button">
               <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                  width="21px" height="22px" viewBox="0 0 21 22" enable-background="new 0 0 21 22" xml:space="preserve" style="fill: #cacaca">
@@ -149,20 +149,20 @@
           </p>
         </div>
         <div class="group-of-people">
-          <label class="booking-form-search1">взрослые:</label>
+          <label class="booking-form-search1" for="hotel-grown">взрослые:</label>
           <div class="hotel-grown">
             <button type="button">−</button>
-            <input type="text" value="">
+            <input type="text" value="" id="hotel-grown">
             <button type="button">+</button>
           </div>
-          <label class="booking-form-search2">дети:</label>
+          <label class="booking-form-search2" for="hotel-children">дети:</label>
           <div class="hotel-children">
             <button type="button">−</button>
-            <input type="text" value="">
+            <input type="text" value="" id="hotel-children">
             <button type="button">+</button>
           </div>
         </div>
-        <button type="button" class="button button-blue">найти</button>
+        <button type="submit" class="button button-blue">найти</button>
       </form>
     </section>
     </div>

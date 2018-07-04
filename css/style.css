@@ -160,7 +160,6 @@ a {
 
 .button {
   display: inline-block;
-  padding: 5px 15px;
   margin-right: 10px;
   font: inherit;
   text-align: center;
@@ -372,7 +371,7 @@ a {
 .advantages-item {
   width: 400px;
   min-height: 35px;
-  padding: 142px 55px 60px;
+  padding: 142px 55px 65px;
   position: relative;
 }
 
@@ -448,7 +447,7 @@ iframe {
 
 .modal {
   width: 570px;
-  min-height: 400px;
+  min-height: 395px;
   position: absolute;
   top: 294px;
   left: 50%;
@@ -472,10 +471,8 @@ iframe {
 .feedback .button-blue {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 60px;
-    margin-bottom: 55px;
     width: 430px;
-    height: 50px;
+    min-height: 50px;
   }
 
 
@@ -545,7 +542,7 @@ iframe {
 
 
 .input-group {
-  width: 340px;
+  width: 345px;
   height: 40px;
   padding-left: 10px;
   padding-right: 40px;
@@ -561,8 +558,8 @@ iframe {
 
 .input-icon-calendar {
   position: absolute;
-  top: 8px;
-  left: 418px;
+  top: 9px;
+  left: 420px;
   border: none;
   background-color: transparent;
 }
@@ -587,7 +584,31 @@ iframe {
   font-family: Arial, sans-serif;
   font-size: 20px;
   color: #a9a9a9;
+  position: absolute;
 }
+
+.hotel-grown button:first-child {
+  top: 0;
+  left: 20px;
+}
+
+.hotel-grown button:last-child {
+  top: 0;
+  left: 96px;
+}
+
+.hotel-children button:first-child {
+  top: 0;
+  left: 20px;
+}
+
+.hotel-children button:last-child {
+  top: 0;
+  left: 97px;
+}
+
+
+
 
 .hotel-children button:hover,
 .hotel-grown button:hover,
@@ -605,6 +626,7 @@ iframe {
 .hotel-children,
 .hotel-grown {
   display: flex;
+  position: relative;
 }
 
 .hotel-grown {
@@ -618,17 +640,15 @@ iframe {
 
 .hotel-children input,
 .hotel-grown input {
-  width: 38px;
+  width: 110px;
   height: 38px;
-  padding-left:  10px;
+  padding-left:  50px;
   padding-right: 10px;
+  margin-left: 25px;
 
 }
 
-.hotel-children button:first-child,
-.hotel-grown button:first-child {
-  margin-left: 20px;
-}
+
 
 
 .booking-form-search1,
@@ -642,17 +662,18 @@ iframe {
   align-items: flex-start;
   min-height: 100px;
   justify-content: flex-start;
+  padding-bottom: 20px;
 }
 
 .page-footer p {
-  margin-top: 35px;
+  margin-top: 40px;
   margin-left: 133px;
 }
 
 .footer-social {
   display: flex;
   width: 155px;
-  margin-top: 25px;
+  margin-top: 30px;
   justify-content: center;
   margin-left: 253px;
 }
@@ -690,7 +711,7 @@ iframe {
   justify-content: flex-start;
   font-size: 16px;
   line-height: 26px;
-  margin-top: 25px;
+  margin-top: 30px;
   margin-left: 225px;
   }
 
@@ -734,7 +755,7 @@ iframe {
   display: flex;
   width: 145px;
   min-height: 160px;
-  margin-top: 23px;
+  margin-top: 24px;
   margin-left: 60px;
   margin-bottom: 0px;
   align-items: flex-start;
@@ -745,7 +766,7 @@ iframe {
   display: flex;
   width: 145px;
   min-height: 160px;
-  margin-top: 23px;
+  margin-top: 24px;
   margin-left: 83px;
   margin-bottom: 30px;
 }
@@ -753,14 +774,14 @@ iframe {
 
 .filter-range {
   width: 330px;
-  margin-top: 25px;
-  margin-left: 321px;
+  margin-top: 27px;
+  margin-left: 322px;
   color: #ffffff;
   text-transform: uppercase;
 }
 
 .filter-range-title {
-  margin-bottom: 9px;
+  margin-bottom: 10px;
   font-weight: 600;
   font-size: 16px;
   line-height: 21px;
@@ -768,11 +789,12 @@ iframe {
 
 .price-controls {
   position: relative;
-  height: 34px;
+  height: 33px;
   margin-bottom: 20px;
   font-size: o;
   border: 2px solid #ffffff;
   border-radius: 2px;
+  width: 315px;
 }
 
 .price-controls::after {
@@ -817,6 +839,7 @@ iframe {
 .range-controls .scale {
   height: 2px;
   background: rgba(255, 255, 255, 0.3);
+  width: 320px;
 }
 
 .range-controls .bar {
@@ -846,14 +869,14 @@ iframe {
 }
 
 .range-toggle-max {
-  left: 80%;
+  left: 76%;
 }
 
 .btn-transparent {
-  min-width: 130px;
+  min-width: 137px;
   display: block;
-  margin: 0 auto;
-  padding: 6px 35px;
+  margin: 0 85px;
+  padding: 6px 32px;
   font-size: 14px;
   line-height: 20px;
   color: #ffffff;
@@ -887,12 +910,12 @@ iframe {
 }
 
 .sorting h2 {
-  margin-left: 70px;
-  margin-top: 28px;
+  margin-left: 71px;
+  margin-top: 30px;
 }
 
 .sorting p {
-  margin-left: 50px;
+  margin-left: 48px;
   margin-top: 35px;
 }
 
@@ -902,13 +925,18 @@ iframe {
   width: 300px;
   min-height: 14px;
   justify-content: flex-start;
-  margin-left: -15px;
-  margin-top: 28px;
+  margin-left: -7px;
+  margin-top: 35px;
+}
+
+.sorting li {
+  margin-right: 12px;
 }
 
 .sorting .arrow {
   display: flex;
-  margin-left: 390px;
+  margin-left: 445px;
+  margin-top: 35px;
   width: 40px;
   min-height: 15px;
   justify-content: center;
@@ -936,6 +964,7 @@ iframe {
   display: flex;
   flex-direction: column;
   padding: 0px;
+  margin-bottom: 7px;
 }
 
 .catalog-item {
@@ -943,7 +972,7 @@ iframe {
   justify-content: flex-start;
   min-height: 100px;
   border-bottom: 1px solid #e5e5e5;
-  padding: 30px 75px;
+  padding: 30px 72px 16px;
 }
 
 .catalog-item:first-child {
@@ -967,17 +996,17 @@ iframe {
 }
 
 .catalog-information h2 {
-  margin-top: 0px;
+  margin-top: -4px;
 }
 
 .catalog-information p {
-  font-size: 12px;
-  line-height:  18px;
+  font-size: 14px;
+  line-height:  21px;
 }
 
 .catalog-information span {
-  font-size: 12px;
-  line-height:  18px;
+  font-size: 14px;
+  line-height:  21px;
 }
 
 .hotel-button {
@@ -986,7 +1015,17 @@ iframe {
 
 .hotel-button .button-blue {
   margin-right: 5px;
+  min-height: 24px;
+  min-width: 110px;
+  padding-top: 2px;
 }
+
+.hotel-button .button-brown {
+  min-height: 24px;
+  min-width: 143px;
+  padding-top: 2px;
+}
+
 
 .hotel-text {
   display: flex;
@@ -996,17 +1035,17 @@ iframe {
 }
 
 .catalog-information .amara-indent {
-  margin-left: 50px;
+  margin-left: 39px;
 
 }
 
 .catalog-information .desert-indent {
-  margin-left: 75px;
+  margin-left: 63px;
 
 }
 
 .catalog-information .villas-indent {
-  margin-left: 35px;
+  margin-left: 20px;
 
 }
 
@@ -1017,7 +1056,7 @@ iframe {
   display: flex;
   align-items: flex-end;
   flex-direction: column;
-  margin-left: 520px;
+  margin-left: 523px;
   position: relative;
 
 
@@ -1058,15 +1097,15 @@ iframe {
 
 .star1::after {
   top: 0px;
-  left: 70px;
+  left: 67px;
 }
 
 .star2::before {
   top: 0px;
-  left: 50px;
+  left: 43px;
 }
 
 .star2::after {
   top: 0px;
-  left: 30px;
+  left: 19px;
 }

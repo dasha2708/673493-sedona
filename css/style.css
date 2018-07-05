@@ -27,8 +27,9 @@ body {
 }
 .welcome-block {
   background-color: #a3a7ac;
-  background-image: url("../img/bg.jpg");
-  background-position: top left;
+  background-image: url("../img/bg-bottom.png"),
+                    url("../img/bg.jpg");
+  background-position: 0px 455px, 0px -54px;
   background-repeat: no-repeat;
 }
 

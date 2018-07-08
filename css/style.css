@@ -827,7 +827,8 @@ iframe {
 .price-controls .min-price,
 .price-controls .max-price {
   width: 90px;
-  padding-left: 65px;
+  padding-left: 58px;
+  margin-top: -4px;
 }
 
 .price-controls input {
@@ -1085,6 +1086,7 @@ iframe {
   align-self: flex-end;
   padding: 0;
   margin-bottom: 34px;
+  margin-top: 0;
 }
 
 .stars li {

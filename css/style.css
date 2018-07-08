@@ -296,16 +296,32 @@ a {
   flex-direction: column;
 }
 
-.reason-text h2 {
-  margin-top: 47px;
+.second-reason h2 {
+  margin-top: 46px;
+  margin-left: 115px;
+  width: 170px;
+}
+
+.first-reason h2 {
+  margin-top: 46px;
+  margin-left: 115px;
+  width: 170px;
 }
 
 .reason-text span {
   margin-top: 7px;
 }
 
-.reason-text p {
+.first-reason p {
   margin-top: 21px;
+  width: 300px;
+  margin-left: 50px;
+}
+
+.second-reason p {
+  margin-top: 21px;
+  width: 320px;
+  margin-left: 40px;
 }
 
 .main-navigation {
@@ -374,8 +390,13 @@ a {
   margin: 45px  40px auto;
 }
 
+.description h1 {
+  width: 500px;
+  margin: 15px 310px;
+}
+
 .description p {
-  margin-top: 16px;
+  margin-top: 14px;
 }
 
 .reason {
@@ -392,8 +413,8 @@ a {
   width: 400px;
   min-height: 187px;
   padding-top: 142px;
-  padding-left: auto;
-  padding-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -450,15 +471,24 @@ a {
 }
 
 .other-reasons-item h2 {
-  margin-top: 48px;
+  margin: 48px 122px 0;
+  width: 155px;
 }
 
 .other-reasons-item span {
-  margin-top: 7px;
+  margin-top: 23px;
 }
 
-.other-reasons-item p {
-  margin-top: 21px;
+.third-reason p,
+.fourth-reason p {
+  width: 280px;
+  margin-top: 22px;
+  margin-left: 59px;
+}
+
+.fifth-reason p {
+  width: 250px;
+  margin-left: 73px;
 }
 
 .feedback {
@@ -615,7 +645,7 @@ iframe {
   box-sizing: border-box;
   border: 0;
   background-color: #f2f2f2;
-  font-family: font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   display: inline-block;
 }
 

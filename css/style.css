@@ -330,13 +330,13 @@ a {
 }
 
 .second-reason h2 {
-  margin-top: 46px;
+  margin-top: 48px;
   margin-left: 117px;
   width: 170px;
 }
 
 .first-reason h2 {
-  margin-top: 46px;
+  margin-top: 48px;
   margin-left: 115px;
   width: 170px;
 }
@@ -346,33 +346,15 @@ a {
 }
 
 .first-reason p {
-  margin-top: 48px;
+  margin-top: 23px;
   width: 300px;
   margin-left: 50px;
 }
 
 .second-reason p {
-  margin-top: 49px;
+  margin-top: 22px;
   width: 320px;
   margin-left: 40px;
-}
-
-.first-reason p::before {
-  content: "— №1 —";
-  position: absolute;
-  width: 60px;
-  height: 20px;
-  top: 111px;
-  left: 170px;
-}
-
-.second-reason p::before {
-  content: "— №2 —";
-  position: absolute;
-  width: 60px;
-  height: 20px;
-  top: 111px;
-  left: 170px;
 }
 
 .main-navigation {
@@ -490,7 +472,7 @@ a {
 .advantages-item {
   width: 300px;
   min-height: 187px;
-  padding-top: 142px;
+  padding-top: 144px;
   padding-left: 50px;
   padding-right: 50px;
   position: relative;
@@ -549,10 +531,10 @@ a {
   display: -webkit-flex;
   display: flex;
   flex-wrap: wrap;
+  background-color: #eeeeee;
 }
 
 .other-reasons-item {
-  background-color: #eeeeee;
   width: 400px;
   min-height: 256px;
   padding: 0 auto;
@@ -569,44 +551,21 @@ a {
   width: 155px;
 }
 
+.other-reasons-item span {
+  margin-top: 25px;
+}
+
 .third-reason p,
 .fourth-reason p {
   width: 280px;
-  margin-top: 66px;
-  margin-left: 59px;
+  margin-top: 20px;
+  margin-left: 60px;
 }
 
 .fifth-reason p {
   width: 250px;
-  margin-left: 73px;
-  margin-top: 66px;
-}
-
-.third-reason p::before {
-  content: "— №3 —";
-  position: absolute;
-  width: 60px;
-  height: 20px;
-  top: 114px;
-  left: 170px;
-}
-
-.fourth-reason p::before {
-  content: "— №4 —";
-  position: absolute;
-  width: 60px;
-  height: 20px;
-  top: 114px;
-  left: 170px;
-}
-
-.fifth-reason p::before {
-  content: "— №5 —";
-  position: absolute;
-  width: 60px;
-  height: 20px;
-  top: 114px;
-  left: 170px;
+  margin-left: 74px;
+  margin-top: 20px;
 }
 
 .feedback {

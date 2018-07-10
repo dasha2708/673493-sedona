@@ -5,7 +5,7 @@
     <title>HTML Academy: Седона</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style_min.css" rel="stylesheet">
   </head>
   <body>
     <section class="main-container">
@@ -30,15 +30,17 @@
           <h1>Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
           <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
         </section>
-        <section class="reason first-reason">
-          <div class="reason-text">
-            <h2>Настоящий городок</h2>
-            <p>Седона — не аттракцион для туристов, там течет своя жизнь</p>
-          </div>
-          <div class="image sedona-image">
-            <img  src="img/sedona.jpg"  width="800" height="255" alt="Вид">
-          </div>
-        </section>
+        <div class="wrapper">
+          <section class="reason first-reason">
+            <div class="reason-text">
+              <h2>Настоящий городок</h2>
+              <p>Седона — не аттракцион для туристов, там течет своя жизнь</p>
+            </div>
+            <div class="image sedona-image">
+              <img  src="img/sedona.jpg"  width="800" height="400" alt="Вид">
+            </div>
+          </section>
+        </div>
         <section class="advantages">
           <div class="advantages-item housing">
             <h2>Жильё</h2>
@@ -53,15 +55,17 @@
             <p>Не только китайского, но и местного производства!</p>
           </div>
         </section>
-        <section class="reason second-reason">
-          <div class="image sedona-image">
-            <img  src="img/bridge.jpg"  width="800" height="255" alt="Мост дьявола">
-          </div>
-          <div class="reason-text">
-            <h2>Там есть <br>мост дьявола</h2>
-            <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
-          </div>
-        </section>
+        <div class="wrapper">
+          <section class="reason second-reason">
+            <div class="image sedona-image">
+              <img  src="img/bridge.jpg"  width="800" height="400" alt="Мост дьявола">
+            </div>
+            <div class="reason-text">
+              <h2>Там есть <br>мост дьявола</h2>
+              <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+            </div>
+          </section>
+        </div>
         <section class="reason other-reasons">
           <div class="other-reasons-item  third-reason">
             <h2>Небольшая площадь</h2>
